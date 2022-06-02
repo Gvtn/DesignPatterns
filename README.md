@@ -1,5 +1,5 @@
 # DesignPatterns
-Learnign design patterns
+Learnign design patterns .Net 6
 
 Contents:
 
