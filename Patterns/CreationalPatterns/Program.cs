@@ -8,3 +8,5 @@ FactoryMethodUseExamples.FactoryMethodBasedOnAbstractionRun();
 // B U I L D E R
 
 BuilderUseExamples.BuilderWithDirectorRun();
+
+BuilderUseExamples.BuilderFluentSyntaxRun();
