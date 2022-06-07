@@ -1,4 +1,5 @@
-﻿using BehavioralPatterns.Iterator;
+﻿using BehavioralPatterns.Command;
+using BehavioralPatterns.Iterator;
 using BehavioralPatterns.Observer;
 
 // I T E R A T O R
@@ -13,3 +14,7 @@ IteratorUseExamples.IteratorOutsideCollectionRun();
 
 // implementation using events
 ObserverUseExamples.ObserverUsingEventsRun();
+
+// C O M M A N D
+
+CommandUseExamples.CommandWithHistoryRun();
