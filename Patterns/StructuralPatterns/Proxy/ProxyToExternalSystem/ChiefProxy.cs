@@ -1,5 +1,11 @@
 ﻿namespace StructuralPatterns.Proxy;
 
+/// <summary>
+/// Типичный пример испольозвания Proxy для логирования и кэширования.
+/// Proxy, который логирует запросы к GetOrders() и логирует запрос к GetStatuses().
+/// Еще бывает использование Proxy для контроля доступа к системе через проверку прав внутри Proxy.
+/// Использование кэша приводит к осутствию задержки в обработке полученных даных.
+/// </summary>
 internal class ChiefProxy : IChief
 {
     private readonly Chief _chief;

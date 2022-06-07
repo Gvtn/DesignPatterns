@@ -1,6 +1,9 @@
 ﻿namespace StructuralPatterns.Proxy;
 
 
+/// <summary>
+/// Боевой класс доступа к внешней системе, который имеет задержки исполнения (вызов БД и т.д.)
+/// </summary>
 internal class Chief : IChief
 {
     public IDictionary<int, string> GetStatuses()
