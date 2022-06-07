@@ -14,3 +14,4 @@ Contents:
 
 	Structural:
 			-->Adapter
+			-->Proxy
