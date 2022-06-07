@@ -5,6 +5,8 @@ using CreationalPatterns.FactoryMethod;
 
 FactoryMethodUseExamples.FactoryMethodBasedOnAbstractionRun();
 
+FactoryMethod2UseExample.FactoryMethod2();
+
 // B U I L D E R
 
 BuilderUseExamples.BuilderWithDirectorRun();
