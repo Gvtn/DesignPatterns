@@ -5,10 +5,12 @@ Contents:
 
 	Creational:
 		 	-->Factory Method
+			-->Builder
 
 	Behavioral:
 			-->Iterator
 			-->Observer
+			-->Command
 
 	Structural:
 			-->Adapter
