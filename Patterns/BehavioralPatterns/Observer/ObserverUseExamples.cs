@@ -8,7 +8,7 @@ namespace BehavioralPatterns.Observer
         public static void ObserverUsingEventsRun()
         {
             Console.WriteLine(new string('-', 30));
-            Console.WriteLine("--> Observer Using Events example");
+            Console.WriteLine("--> ");
 
             Birdwatching.BirdwatchingInUkraine();
 
