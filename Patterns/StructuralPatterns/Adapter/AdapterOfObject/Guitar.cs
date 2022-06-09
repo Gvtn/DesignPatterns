@@ -1,6 +1,6 @@
 ﻿namespace StructuralPatterns.Adapter
 {
-    internal class Guitar : IGuitar
+    internal class Guitar
     {
         public void PlayGuitar()
         {
