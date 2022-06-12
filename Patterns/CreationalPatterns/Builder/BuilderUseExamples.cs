@@ -1,5 +1,6 @@
 ﻿using CreationalPatterns.Builder.BuilderFluentSyntax;
 using CreationalPatterns.Builder.BuilderWithDirector;
+using CreationalPatterns.Builder.BuilderFluentAnotherOne;
 
 namespace CreationalPatterns.Builder
 {
@@ -40,6 +41,24 @@ namespace CreationalPatterns.Builder
 
             Console.WriteLine(new string('-', 30));
             Console.WriteLine(new string('\n', 2));
+        }
+
+        public static void BuilderFluentAnotherOneRun()
+        {
+            List<Employee> employees = new()
+            {
+                new Employee { Name = "Antonina", Salary = 100 },
+                new Employee { Name = "Mykola", Salary = 50 },
+                new Employee { Name = "Valentina", Salary = 200 }
+            };
+
+            var builder = new EmployeeReportBuilder(employees);
+            var director = new EmployeeReportDirector(builder);
+            director.Build();
+
+            var report = builder.GetReport();
+
+            Console.WriteLine(report);
         }
     }
 }

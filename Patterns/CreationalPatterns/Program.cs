@@ -12,3 +12,5 @@ FactoryMethodUseExamples.FactoryMethod2();
 BuilderUseExamples.BuilderWithDirectorRun();
 
 BuilderUseExamples.BuilderFluentSyntaxRun();
+
+BuilderUseExamples.BuilderFluentAnotherOneRun();
