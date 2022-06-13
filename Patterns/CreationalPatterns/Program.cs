@@ -16,3 +16,4 @@ ConsoleDecoration.AddDecoration("Builder With Director example",
 
 ConsoleDecoration.AddDecoration("Builder Fluent Syntax example",
                                 () => BuilderUseExamples.BuilderFluentSyntaxRun());
+BuilderUseExamples.BuilderFluentAnotherOneRun();
