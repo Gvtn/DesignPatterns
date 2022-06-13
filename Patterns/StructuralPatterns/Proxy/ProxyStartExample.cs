@@ -7,13 +7,15 @@ public static class ProxyStartExamples
     {
         IChief chief = new ChiefProxy(new Chief());
         bool flag = true;
+        var consoleCancelEventHandler = new ConsoleCancelEventHandler((o, c) =>
+        {
+            c.Cancel = true;
+            flag = false;
+        });
         while (flag)
         {
-            Console.CancelKeyPress += (o, c) =>
-            {
-                c.Cancel = true;
-                flag = false;
-            };
+
+            Console.CancelKeyPress += consoleCancelEventHandler;
             Thread.Sleep(2000);
 
             Console.Clear();
@@ -31,6 +33,8 @@ public static class ProxyStartExamples
                 Console.WriteLine($"{order.Name}\t\t{status}");
             }
         }
+
+        Console.CancelKeyPress -= consoleCancelEventHandler;
         Console.WriteLine(new string('-', 30));
         Console.WriteLine(new string('\n', 2));
     }
