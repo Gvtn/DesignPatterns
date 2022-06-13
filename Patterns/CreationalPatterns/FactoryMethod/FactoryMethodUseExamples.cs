@@ -10,7 +10,7 @@ namespace CreationalPatterns.FactoryMethod
         public static void FactoryMethodBasedOnAbstractionRun()
         {
             Console.WriteLine(new string('-', 30));
-            Console.WriteLine("--> Factory Method Based On Abstraction example");
+            Console.WriteLine("--> ");
 
 
             var musicalInstrument = Factory.CreateMusicalInstrument(new DrumsFactory());
