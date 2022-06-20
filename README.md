@@ -15,3 +15,4 @@ Contents:
 	Structural:
 			-->Adapter
 			-->Proxy
+			-->Facade
