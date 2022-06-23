@@ -11,6 +11,7 @@ Contents:
 			-->Iterator
 			-->Observer
 			-->Command
+			-->Chain of Responsibility
 
 	Structural:
 			-->Adapter
