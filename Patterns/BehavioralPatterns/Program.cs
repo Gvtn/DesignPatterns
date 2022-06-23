@@ -1,4 +1,5 @@
-﻿using BehavioralPatterns.Command;
+﻿using BehavioralPatterns.ChainOfResponsibility;
+using BehavioralPatterns.Command;
 using BehavioralPatterns.Iterator;
 using BehavioralPatterns.Observer;
 using Utility;
@@ -23,3 +24,8 @@ ConsoleDecoration.AddDecoration("Observer Using Events example",
 
 ConsoleDecoration.AddDecoration("Command With History example",
                                 () => CommandUseExamples.CommandWithHistoryRun());
+
+// C H A I N   O F   R E S P O N S I B I L I T Y
+
+ConsoleDecoration.AddDecoration("Simple Chain of Reponsibility example",
+                                () => CoRUseExamples.SimpleCoRExampleRun());
