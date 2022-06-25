@@ -24,3 +24,6 @@ BuilderUseExamples.BuilderFluentAnotherOneRun();
 
 ConsoleDecoration.AddDecoration("Thread Unsafe Singleton example",
                                 () => SingletonUseExamples.ThreadUnsafeSingletonExampleRun());
+
+ConsoleDecoration.AddDecoration("Thread Safe Singleton example",
+                                () => SingletonUseExamples.ThreadSafeSingletonExampleRun());

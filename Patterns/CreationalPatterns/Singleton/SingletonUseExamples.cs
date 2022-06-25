@@ -1,9 +1,4 @@
 ﻿using CreationalPatterns.Singleton.ThreadUnsafeSingleton;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CreationalPatterns.Singleton
 {
@@ -12,6 +7,10 @@ namespace CreationalPatterns.Singleton
         internal static void ThreadUnsafeSingletonExampleRun()
         {
             UserOfSingleton.Run();
+        }
+        internal static void ThreadSafeSingletonExampleRun()
+        {
+            CreationalPatterns.Singleton.ThreadSafeSingleton.UserOfSingleton.Run();
         }
     }
 }
