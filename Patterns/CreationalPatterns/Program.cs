@@ -1,5 +1,6 @@
 ﻿using CreationalPatterns.Builder;
 using CreationalPatterns.FactoryMethod;
+using CreationalPatterns.Prototype;
 using CreationalPatterns.Singleton;
 using Utility;
 
@@ -27,3 +28,8 @@ ConsoleDecoration.AddDecoration("Thread Unsafe Singleton example",
 
 ConsoleDecoration.AddDecoration("Thread Safe Singleton example",
                                 () => SingletonUseExamples.ThreadSafeSingletonExampleRun());
+
+// P R O T O T Y P E
+
+ConsoleDecoration.AddDecoration("Shallow vs Deep Copy Prototype example",
+                                () => PrototypeUseExamples.ShallowVsDeepCopyRun());
