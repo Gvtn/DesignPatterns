@@ -6,6 +6,9 @@ Contents:
 	Creational:
 		 	-->Factory Method
 			-->Builder
+			-->Singleton
+			-->Prototype
+			-->Abstract Factory
 
 	Behavioral:
 			-->Iterator
