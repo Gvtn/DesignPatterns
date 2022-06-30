@@ -1,4 +1,5 @@
-﻿using CreationalPatterns.Builder;
+﻿using CreationalPatterns.AbstractFactory;
+using CreationalPatterns.Builder;
 using CreationalPatterns.FactoryMethod;
 using CreationalPatterns.Prototype;
 using CreationalPatterns.Singleton;
@@ -33,3 +34,8 @@ ConsoleDecoration.AddDecoration("Thread Safe Singleton example",
 
 ConsoleDecoration.AddDecoration("Shallow vs Deep Copy Prototype example",
                                 () => PrototypeUseExamples.ShallowVsDeepCopyRun());
+
+// A B S T R A C T   F A C T O R Y
+
+ConsoleDecoration.AddDecoration("Paint Shop Abstract Factory example",
+                                () => AbstractFactoryUseExamples.PaintingShopRun());
