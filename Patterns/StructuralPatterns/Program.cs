@@ -1,26 +1,32 @@
 ﻿using StructuralPatterns.Adapter;
 using StructuralPatterns.Bridge;
+using StructuralPatterns.Composite;
 using StructuralPatterns.Facade;
 using Utility;
 
 // P R O X Y
 
-ProxyStartExamples.ProxyToExternalSystemRun();
+//ProxyStartExamples.ProxyToExternalSystemRun();
 
-ConsoleDecoration.AddDecoration("Proxy with lazy loading example",
-                                () => ProxyStartExamples.LazyLoadingProxyRun());
+//ConsoleDecoration.AddDecoration("Proxy with lazy loading example",
+//                                () => ProxyStartExamples.LazyLoadingProxyRun());
 
-// A D A P T E R
+//// A D A P T E R
 
-ConsoleDecoration.AddDecoration("Adapter Of Object example",
-                                () => AdapterUseExamples.AdapterOfObjectRun());
+//ConsoleDecoration.AddDecoration("Adapter Of Object example",
+//                                () => AdapterUseExamples.AdapterOfObjectRun());
 
-// F A C A D E
+//// F A C A D E
 
-ConsoleDecoration.AddDecoration("Facade With Two Subsystems example",
-                                () => FacadeUseExamples.FacadeWithTwoSubsystemsRun());
+//ConsoleDecoration.AddDecoration("Facade With Two Subsystems example",
+//                                () => FacadeUseExamples.FacadeWithTwoSubsystemsRun());
 
-// B R I D G E
+//// B R I D G E
 
-ConsoleDecoration.AddDecoration("Bridge Name Formatting example",
-                                () => BridgeUseExamples.NameFormatterRun());
+//ConsoleDecoration.AddDecoration("Bridge Name Formatting example",
+//                                () => BridgeUseExamples.NameFormatterRun());
+
+// C O M P O S I T E
+
+ConsoleDecoration.AddDecoration("Composite Mail example",
+                                () => CompositeUseExamples.CompositeMailRun());
