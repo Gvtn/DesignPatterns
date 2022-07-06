@@ -20,3 +20,4 @@ Contents:
 			-->Adapter
 			-->Proxy
 			-->Facade
+			-->Bridge
