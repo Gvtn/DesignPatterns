@@ -1,4 +1,5 @@
 ﻿using StructuralPatterns.Adapter;
+using StructuralPatterns.Bridge;
 using StructuralPatterns.Facade;
 using Utility;
 
@@ -18,3 +19,8 @@ ConsoleDecoration.AddDecoration("Adapter Of Object example",
 
 ConsoleDecoration.AddDecoration("Facade With Two Subsystems example",
                                 () => FacadeUseExamples.FacadeWithTwoSubsystemsRun());
+
+// B R I D G E
+
+ConsoleDecoration.AddDecoration("Bridge Name Formatting example",
+                                () => BridgeUseExamples.NameFormatterRun());
