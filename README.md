@@ -21,3 +21,4 @@ Contents:
 			-->Proxy
 			-->Facade
 			-->Bridge
+			-->Composite
