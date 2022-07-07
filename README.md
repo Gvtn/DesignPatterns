@@ -22,3 +22,4 @@ Contents:
 			-->Facade
 			-->Bridge
 			-->Composite
+			-->Decorator
