@@ -2,6 +2,7 @@
 using StructuralPatterns.Bridge;
 using StructuralPatterns.Composite;
 using StructuralPatterns.Facade;
+using StructuralPatterns.Flyweight;
 using Utility;
 
 // P R O X Y
@@ -30,3 +31,8 @@ ConsoleDecoration.AddDecoration("Bridge Name Formatting example",
 
 ConsoleDecoration.AddDecoration("Composite Mail example",
                                 () => CompositeUseExamples.CompositeMailRun());
+
+// F L Y W E I G H T
+
+ConsoleDecoration.AddDecoration("Flyweight Factory example",
+                                () => FlyweightUseExamples.FlyweightWIthFactoryRun());
