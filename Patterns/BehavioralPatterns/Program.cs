@@ -2,6 +2,7 @@
 using BehavioralPatterns.Command;
 using BehavioralPatterns.Iterator;
 using BehavioralPatterns.Observer;
+using BehavioralPatterns.Strategy;
 using Utility;
 
 // I T E R A T O R
@@ -29,3 +30,8 @@ ConsoleDecoration.AddDecoration("Command With History example",
 
 ConsoleDecoration.AddDecoration("Simple Chain of Reponsibility example",
                                 () => CoRUseExamples.SimpleCoRExampleRun());
+
+// S T R A T E G Y
+
+ConsoleDecoration.AddDecoration("Simple Strategy example",
+                                () => StrategyUseExample.SimpleStrategyExampleRun());
